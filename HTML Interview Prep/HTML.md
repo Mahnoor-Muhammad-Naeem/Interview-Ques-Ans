@@ -381,6 +381,5 @@ Use it for **interview preparation** or as a **reference guide**.
 
 ---
 
-## 📂 Project Structure
 
 
