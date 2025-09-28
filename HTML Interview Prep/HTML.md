@@ -73,6 +73,344 @@ Use it for **interview preparation** or as a **reference guide**.
 
 ---
 
+# 🟢 HTML Interview Questions & Answers (Beginner to Advanced)
+
+This document contains **150 HTML Interview Questions with Answers**, divided into three levels:
+- **Beginner (50 Questions)**
+- **Intermediate (50 Questions)**
+- **Advanced (50 Questions)**
+
+---
+
+# 📘 Beginner Level (50 Questions)
+
+### 1. What is HTML?  
+**Answer:** HTML (HyperText Markup Language) is the standard language used to create and structure web pages. It defines the elements of a page like headings, paragraphs, images, and links.  
+
+---
+
+### 2. What is the latest version of HTML?  
+**Answer:** The latest version is **HTML5**, which introduced new semantic elements, multimedia tags (`<audio>`, `<video>`), and APIs (Canvas, LocalStorage, Geolocation).  
+
+---
+
+### 3. What is the difference between HTML and CSS?  
+**Answer:**  
+- **HTML** → Structures the content (headings, text, images).  
+- **CSS** → Styles the content (colors, fonts, layouts).  
+
+---
+
+### 4. What are HTML tags?  
+**Answer:** HTML tags are keywords inside angle brackets (`< >`) that define elements. Example:  
+```html
+<p>This is a paragraph</p>
+```  
+
+---
+
+### 5. What are attributes in HTML?  
+**Answer:** Attributes provide extra information about an element. Example:  
+```html
+<img src="image.jpg" alt="logo">
+```  
+
+---
+
+### 6. What is the difference between `<div>` and `<span>`?  
+**Answer:**  
+- `<div>`: Block-level container, takes full width.  
+- `<span>`: Inline container, only takes up needed width.  
+
+---
+
+### 7. What is the purpose of `<!DOCTYPE html>`?  
+**Answer:** It tells the browser the HTML version. In HTML5, it is written as:  
+```html
+<!DOCTYPE html>
+```  
+
+---
+
+### 8. What is semantic HTML?  
+**Answer:** Semantic HTML uses elements that describe meaning. Examples:  
+- `<header>` → Page header  
+- `<footer>` → Page footer  
+- `<article>` → Article section  
+
+---
+
+### 9. What are self-closing tags?  
+**Answer:** Tags that do not need closing. Examples:  
+- `<img>`  
+- `<br>`  
+- `<hr>`  
+
+---
+
+### 10. What is the difference between absolute and relative links?  
+**Answer:**  
+- **Absolute link**: Full URL (e.g., `https://google.com`).  
+- **Relative link**: Path relative to current page (e.g., `about.html`).  
+
+---
+
+### 11. What is the `<head>` tag used for?  
+**Answer:** It contains metadata like title, CSS, scripts, and SEO tags.  
+
+---
+
+### 12. What is the `<title>` tag?  
+**Answer:** Defines the title of a webpage (appears on browser tab).  
+
+---
+
+### 13. What is the difference between `<ol>`, `<ul>`, and `<dl>`?  
+**Answer:**  
+- `<ol>`: Ordered list (numbered).  
+- `<ul>`: Unordered list (bulleted).  
+- `<dl>`: Definition list (terms + descriptions).  
+
+---
+
+### 14. What is the difference between inline and block elements?  
+**Answer:**  
+- **Block**: Takes full width (`<div>`, `<p>`, `<h1>`).  
+- **Inline**: Takes only content width (`<span>`, `<a>`).  
+
+---
+
+### 15. What are empty elements in HTML?  
+**Answer:** Elements without closing tags or content. Examples: `<br>`, `<hr>`, `<img>`.  
+
+---
+
+### 16. What are forms in HTML?  
+**Answer:** Forms collect user input using `<form>` and controls like `<input>`, `<textarea>`, `<select>`.  
+
+---
+
+### 17. What is the difference between `<id>` and `<class>`?  
+**Answer:**  
+- **id** → Unique identifier (used once per page).  
+- **class** → Can be used multiple times.  
+
+---
+
+### 18. What are HTML comments?  
+**Answer:** Comments are notes ignored by the browser.  
+```html
+<!-- This is a comment -->
+```  
+
+---
+
+### 19. What is the difference between `<b>` and `<strong>`?  
+**Answer:**  
+- `<b>` → Bold text (visual only).  
+- `<strong>` → Important text (semantic meaning).  
+
+---
+
+### 20. What is the difference between `<i>` and `<em>`?  
+**Answer:**  
+- `<i>` → Italic (visual).  
+- `<em>` → Emphasized text (semantic).  
+
+---
+
+### 21. What is the `<br>` tag used for?  
+**Answer:** Adds a line break.  
+
+---
+
+### 22. What is the difference between `<p>` and `<pre>`?  
+**Answer:**  
+- `<p>`: Paragraph, ignores multiple spaces.  
+- `<pre>`: Preformatted text, preserves spaces and line breaks.  
+
+---
+
+### 23. What is the `<hr>` tag?  
+**Answer:** Inserts a horizontal line (used for section breaks).  
+
+---
+
+### 24. What is the difference between `<iframe>` and `<embed>`?  
+**Answer:**  
+- `<iframe>`: Embeds another webpage.  
+- `<embed>`: Embeds external content (e.g., PDF, video).  
+
+---
+
+### 25. What are HTML entities?  
+**Answer:** Special characters written with `&...;`. Example:  
+- `&lt;` → `<`  
+- `&gt;` → `>`  
+- `&nbsp;` → space  
+
+---
+
+### 26. What is the `<a>` tag?  
+**Answer:** Defines a hyperlink. Example:  
+```html
+<a href="https://google.com">Google</a>
+```  
+
+---
+
+### 27. What are inline frames (`<iframe>`)?  
+**Answer:** Used to embed another webpage inside the current one.  
+
+---
+
+### 28. What is the difference between `<thead>`, `<tbody>`, `<tfoot>`?  
+**Answer:** Used in tables:  
+- `<thead>` → Table header  
+- `<tbody>` → Table body  
+- `<tfoot>` → Table footer  
+
+---
+
+### 29. What is the difference between `<link>` and `<a>`?  
+**Answer:**  
+- `<link>`: Connects external resources like CSS.  
+- `<a>`: Creates hyperlinks.  
+
+---
+
+### 30. What is the difference between inline CSS and external CSS?  
+**Answer:**  
+- Inline CSS: Inside HTML element (`style="color:red"`).  
+- External CSS: In separate file (`style.css`).  
+
+---
+
+### 31. What is the `<meta>` tag?  
+**Answer:** Provides metadata (charset, viewport, description, keywords).  
+
+---
+
+### 32. What is the viewport meta tag?  
+**Answer:** Ensures responsive design. Example:  
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```  
+
+---
+
+### 33. What is the `<img>` tag?  
+**Answer:** Displays images. Example:  
+```html
+<img src="photo.jpg" alt="Profile Picture">
+```  
+
+---
+
+### 34. What is the difference between relative and absolute paths in `<img>`?  
+**Answer:**  
+- Relative: `images/photo.jpg`  
+- Absolute: `https://example.com/photo.jpg`  
+
+---
+
+### 35. What is the difference between GET and POST in forms?  
+**Answer:**  
+- **GET**: Sends data in URL (less secure).  
+- **POST**: Sends data in body (more secure).  
+
+---
+
+### 36. What is the placeholder attribute?  
+**Answer:** Displays hint text inside input fields.  
+
+---
+
+### 37. What is the difference between `<button>` and `<input type="button">`?  
+**Answer:**  
+- `<button>`: Can contain HTML (text, images).  
+- `<input type="button">`: Only text, simpler.  
+
+---
+
+### 38. What is the `alt` attribute in `<img>`?  
+**Answer:** Provides alternative text if image fails to load (also important for accessibility).  
+
+---
+
+### 39. What is the difference between `<label>` and `<legend>`?  
+**Answer:**  
+- `<label>`: Describes input fields.  
+- `<legend>`: Caption for `<fieldset>`.  
+
+---
+
+### 40. What is the difference between HTML and XHTML?  
+**Answer:**  
+- HTML: More lenient.  
+- XHTML: Stricter, XML-based, requires proper nesting.  
+
+---
+
+### 41. What is the `<abbr>` tag?  
+**Answer:** Defines an abbreviation. Example:  
+```html
+<abbr title="HyperText Markup Language">HTML</abbr>
+```  
+
+---
+
+### 42. What is the difference between `<small>` and `<sub>`?  
+**Answer:**  
+- `<small>`: Reduces font size.  
+- `<sub>`: Subscript text.  
+
+---
+
+### 43. What is the difference between `<sup>` and `<sub>`?  
+**Answer:**  
+- `<sup>`: Superscript (x²).  
+- `<sub>`: Subscript (H₂O).  
+
+---
+
+### 44. What is the `<blockquote>` tag?  
+**Answer:** Used for long quotations.  
+
+---
+
+### 45. What is the difference between `<q>` and `<blockquote>`?  
+**Answer:**  
+- `<q>`: Inline short quotation.  
+- `<blockquote>`: Block-level long quotation.  
+
+---
+
+### 46. What is the `<code>` tag?  
+**Answer:** Used for inline programming code.  
+
+---
+
+### 47. What is the `<kbd>` tag?  
+**Answer:** Represents keyboard input. Example: `<kbd>Ctrl</kbd> + <kbd>C</kbd>`.  
+
+---
+
+### 48. What is the difference between `<progress>` and `<meter>`?  
+**Answer:**  
+- `<progress>`: Task completion indicator.  
+- `<meter>`: Measurement within a range (e.g., rating).  
+
+---
+
+### 49. What is the `<nav>` tag?  
+**Answer:** Defines navigation links (menus).  
+
+---
+
+### 50. What is the `<footer>` tag?  
+**Answer:** Defines page footer (author info, copyright).
+
 ## 🟡 Intermediate Level (50 Questions & Answers)
 
 1. **What is the difference between HTML and HTML5?**  
