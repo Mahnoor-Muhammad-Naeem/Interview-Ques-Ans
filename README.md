@@ -1,1 +1,1 @@
-git clone https://github.com/your-username/HTML-Interview-Prep.git
+git clone https://github.com/Mahnoor-Muhammad-NNaeem/HTML-Interview-Prep.git
